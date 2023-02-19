@@ -1,0 +1,19 @@
+body {font-family: Baloo 2;
+    background-color: #E3BADA; 
+color: #7B0D99;}
+
+
+h1, h2, h3, h4, h5, h6 {font-family:"Shantell Sans";
+    font-size: 30pt;}
+
+
+
+    header {text-align: center;}
+
+    #hero, footer {text-align: center;
+    background-color: #74CEE6;
+padding: 10px;
+color: #7B0D99;
+border: 2px solid #08A327;}
+
+    #hero img {width: 300px;}
