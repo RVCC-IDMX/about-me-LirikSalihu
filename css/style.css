@@ -5,6 +5,7 @@ color: #7B1694;}
 
 h1, h2, h3, h4, h5, h6 {font-family:"Shantell Sans";
     font-size: 30pt;}
+    h2 {font-size: 17pt;}
 
 
 
@@ -19,3 +20,6 @@ color: #1DE0BC;
 border: 2px solid #5E78E0;}
 
     #hero img {width: 300px;}
+
+    #hobbies {text-align: left;}
+    #hobbies ul li:nth-child(odd) {color: darkred;}
