@@ -10,10 +10,10 @@ h1, h2, h3, h4, h5, h6 {font-family:"Shantell Sans";
 
 
     header {text-align: center;
-    font-size: 15pt;}
+    font-size: 17pt;}
 
     #hero, footer {text-align: center;
-        font-size: 15pt;
+        font-size: 17pt;
     background-color: #2F9481;
 padding: 10px;
 color: #1DE0BC;
@@ -21,7 +21,9 @@ border: 2px solid #5E78E0;}
 
     #hero img {width: 300px;}
 
-    #hobbies {text-align: left;}
+    #hobbies {text-align: left;
+    font-size: 18pt;}
     #hobbies ul li:nth-child(odd) {color: darkred;}
 
 #gallery img {max-width: 100%;}
+#gallery {border: 4px solid #5E78E0;}
