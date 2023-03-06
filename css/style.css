@@ -1,6 +1,6 @@
 body {font-family: Baloo 2;
-    background-color: #DABFE0; 
-color: #7B1694;}
+    background-color: aliceblue; 
+color: #45755B;}
 
 
 h1, h2, h3, h4, h5, h6 {font-family:"Shantell Sans";
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {font-family:"Shantell Sans";
         font-size: 17pt;
     background-color: #2F9481;
 padding: 10px;
-color: #1DE0BC;
+color: aliceblue;
 border: 2px solid #5E78E0;}
 
     #hero img {width: 300px;}
