@@ -88,3 +88,11 @@ figure {
     display: block;
 }
 
+#video {
+    border: 5px outset red;
+    padding: .25em;
+margin-right: .25em;
+line-height: .65;
+background-color: black;
+color: aliceblue;
+}
