@@ -69,18 +69,19 @@ h2
 
         {text-align: left; 
 
-        font-size: 14pt; 
+        font-size: 18pt; 
 
         display: flex; 
 
         flex-direction: column; 
 
-        align-items: center;} 
+        align-items: center;}
+
+    
 
     #hobbies ul li:nth-child(odd)  
 
-        {color: darkred;} 
-
+        {color: darkred} 
  
  
 
