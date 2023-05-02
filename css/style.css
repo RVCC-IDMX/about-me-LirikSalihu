@@ -281,61 +281,48 @@ h2
 
         border: 1px solid;} 
 
-        /* Tablet Styles */
+        @media screen and (max-width: 768px) { 
+
+            header { 
+        
+              display: flex; 
+        
+              flex-direction: column; 
+        
+              align-items: center; 
+        
+              justify-content: center; 
+        
+              text-align: center; 
+        
+            } 
+        
+          } 
+
+
         @media only screen and (max-width: 1024px) {
-          /* Hero Image */
+ 
           #hero img {
             width: 60%;
           }
           
-          /* Hobbies List */
+  
           #hobbies {
             font-size: 16pt;
           }
-          
-          /* Gallery */
+
+
           #gallery {
             grid-template-columns: 1fr 1fr;
           }
           
-          /* Video */
+      
           #video {
             font-size: 18pt;
           }
           
-          /* Contact Form */
+      
           #contact {
             margin-top: 2rem;
-          }
-        }
-        
-        /* Mobile Styles */
-        @media only screen and (max-width: 480px) {
-          /* Hero Image */
-          #hero img {
-            width: 80%;
-          }
-          
-          /* Hobbies List */
-          #hobbies {
-            font-size: 14pt;
-          }
-          
-          /* Gallery */
-          #gallery {
-            grid-template-columns: 1fr;
-          }
-          
-          /* Video */
-          #video {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            font-size: 14pt;
-          }
-          
-          /* Contact Form */
-          #contact {
-            margin-top: 1rem;
           }
         }
