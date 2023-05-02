@@ -107,6 +107,13 @@ h2
     #gallery h2 
         {grid-column: 1/-1;}
 
+     @media screen and (max-width 600px) {
+        #gallery {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
     figure 
         {display: block;}
 
@@ -143,7 +150,7 @@ h2
         border: 1px solid;}
 
 @media screen and (max-width 600px) {
-    .gallery {
+    #gallery {
         width: 150px;
         height: 150px;
     }
