@@ -1,153 +1,337 @@
-body 
-    {font-family: Baloo 2;
-    background-color: aliceblue; 
-    color: #45755B;}
+
+body { 
+
+    font-family: 'Baloo 2' cursive; 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    background-color: #F2F2F2; 
+
+  } 
+
+ 
+ 
+ 
+ 
+ 
+
+h1, h2, h3, h4, h5, h6  
+
+    {font-family:"Shantell Sans"; 
+
+    font-size: 30pt;} 
+
+h2   
+
+    {font-size: 17pt;} 
+
+ 
+ 
+ 
+ 
+
+    header  
+
+        {text-align: center; 
+
+        font-size: 17pt;} 
+
+ 
+ 
+
+    #hero, footer  
+
+        {text-align: center; 
+
+        font-size: 17pt; 
+
+        background-color: #2F9481; 
+
+        padding: 10px; 
+
+        color: aliceblue; 
+
+        border: 2px solid #5E78E0; } 
+
+ 
+ 
+
+    #hero img  
+
+        {width: 300px;} 
+
+ 
+ 
+
+    #hobbies  
+
+        {text-align: left; 
+
+        font-size: 18pt; 
+
+        display: flex; 
+
+        flex-direction: column; 
+
+        align-items: center;} 
+
+    #hobbies ul li:nth-child(odd)  
+
+        {color: darkred;} 
+
+ 
+ 
+
+    #gallery img  
+
+        {max-width: 100%;} 
+
+    #gallery  
+
+        {border: 4px solid #5E78E0;} 
+
+ 
+ 
+
+    #lit  
+
+        {border: 4px solid #5E78E0; 
+
+        margin-bottom: 2rem;} 
+
+    #lit div  
+
+        {padding: 1rem; 
+
+        max-width: 40rem; 
+
+        margin: 0 auto; 
+
+        text-align: left;} 
+
+    #lit div p  
+
+        {padding: 0.3rem 0; 
+
+        clear: both;} 
+
+    #lit div p:nth-child(3n+1):first-letter  
+
+        {color: darkmagenta; 
+
+        background-image: radial-gradient(#FFF, #5E78E0); 
+
+        float: left; 
+
+        font-size: 3em; 
+
+        padding: .25em; 
+
+        margin-right: .25em; 
+
+        line-height: .65; 
+
+        border: 3px outset #5E78E0; 
+
+        text-shadow: 2px 2px 3px rgba(0,0,0,.5); 
+
+        box-shadow: 2px 2px 2px rgba(0,0,0,.5); 
+
+        border-top-left-radius: .2em; 
+
+        border-bottom-right-radius: .2em;} 
+
+ 
+ 
+
+    figure  
+
+        {display: grid; 
+
+        grid-template-columns: 2fr 1fr;} 
+
+ 
+ 
+
+    figcaption  
+
+        {display: flex; 
+
+        justify-content: center; 
+
+        align-items: center; 
+
+        font-size: 2rem; 
+
+        margin-left: 1rem;} 
+
+ 
+ 
+
+    figure img  
+
+        {width: 70%;} 
+
+     
+
+    #gallery  
+
+        {display: grid; 
+
+        grid-template-columns: 1fr 1fr 1fr;} 
+
+ 
+ 
+
+    hr 
+
+        {display: none;} 
+
+ 
+ 
+
+    #gallery h2  
+
+        {grid-column: 1/-1;} 
+
+ 
+ 
+
+    figure  
+
+        {display: block;} 
+
+     
+
+    #lit div    
+
+        {max-width: 100%; 
+
+        columns: 20rem;} 
+
+ 
+ 
+
+    #gallery  
+
+        {display: grid; 
+
+        grid-template-columns: 1fr 1fr 1fr;} 
+
+ 
+ 
+
+    hr 
+
+        {display: none;} 
+
+ 
+ 
+
+    #gallery h2  
+
+        {grid-column: 1/-1;} 
+
+ 
+ 
+ 
+
+    figure  
+
+        {display: block;} 
+
+ 
+ 
+
+    #video  
+
+        {border: 5px outset red; 
+
+        padding: .25em; 
+
+        margin-right: .25em; 
+
+        line-height: .65; 
+
+        background-color: black; 
+
+        color: aliceblue;} 
+
+ 
+ 
+
+    #formelements  
+
+        {display: grid; 
+
+        row-gap: .5em;} 
+
+    #contact  
+
+        {padding: 1rem; 
+
+        max-width: 600px; 
+
+        margin: 2rem auto;} 
+
+    fieldset  
+
+        {border: 4px solid red; 
+
+        margin-top: 1em; 
+
+        margin-bottom: 1em;} 
+
+    #contact input, #contact textarea, #contact select, #contact button { 
+
+        padding:.5em; 
+
+        font-size: 1rem;} 
+
+    #contact ul  
+
+        {list-style: none; 
+
+        padding: 0px;} 
+
+    #contact li  
+
+        {margin:1rem;} 
+
+    #contact button  
+
+        {background-color: #2F9481; 
+
+        color: white; 
+
+        border: 1px solid;} 
 
 
-h1, h2, h3, h4, h5, h6 
-    {font-family:"Shantell Sans";
-    font-size: 30pt;}
-h2  
-    {font-size: 17pt;}
+@media screen and (max-width: 768px) { 
 
+    header { 
 
+      display: flex; 
 
-    header 
-        {text-align: center;
-        font-size: 17pt;}
+      flex-direction: column; 
 
-    #hero, footer 
-        {text-align: center;
-        font-size: 17pt;
-        background-color: #2F9481;
-        padding: 10px;
-        color: aliceblue;
-        border: 2px solid #5E78E0;}
+      align-items: center; 
 
-    #hero img 
-        {width: 300px;}
+      justify-content: center; 
 
-    #hobbies 
-        {text-align: left;
-        font-size: 18pt;
-        display: flex;
-        flex-direction: column;
-        align-items: center;}
-    #hobbies ul li:nth-child(odd) 
-        {color: darkred;}
+      text-align: center; 
 
-    #gallery img 
-        {max-width: 100%;}
-    #gallery 
-        {border: 4px solid #5E78E0;}
+    } 
 
-    #lit 
-        {border: 4px solid #5E78E0;
-        margin-bottom: 2rem;}
-    #lit div 
-        {padding: 1rem;
-        max-width: 40rem;
-        margin: 0 auto;
-        text-align: left;}
-    #lit div p 
-        {padding: 0.3rem 0;
-        clear: both;}
-    #lit div p:nth-child(3n+1):first-letter 
-        {color: darkmagenta;
-        background-image: radial-gradient(#FFF, #5E78E0);
-        float: left;
-        font-size: 3em;
-        padding: .25em;
-        margin-right: .25em;
-        line-height: .65;
-        border: 3px outset #5E78E0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,.5);
-        box-shadow: 2px 2px 2px rgba(0,0,0,.5);
-        border-top-left-radius: .2em;
-        border-bottom-right-radius: .2em;}
+  } 
 
-    figure 
-        {display: grid;
-        grid-template-columns: 2fr 1fr;}
-
-    figcaption 
-        {display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        margin-left: 1rem;}
-
-    figure img 
-        {width: 70%;}
-    
-    #gallery 
-        {display: grid;
-        grid-template-columns: 1fr 1fr 1fr;}
-
-    hr
-        {display: none;}
-
-    #gallery h2 
-        {grid-column: 1/-1;}
-
-    figure 
-        {display: block;}
-    
-    #lit div   
-        {max-width: 100%;
-        columns: 20rem;}
-
-    #gallery 
-        {display: grid;
-        grid-template-columns: 1fr 1fr 1fr;}
-
-    hr
-        {display: none;}
-
-    #gallery h2 
-        {grid-column: 1/-1;}
-
-
-    figure 
-        {display: block;}
-
-    #video 
-        {border: 5px outset red;
-        padding: .25em;
-        margin-right: .25em;
-        line-height: .65;
-        background-color: black;
-        color: aliceblue;}
-
-    #formelements 
-        {display: grid;
-        row-gap: .5em;}
-    #contact 
-        {padding: 1rem;
-        max-width: 600px;
-        margin: 2rem auto;}
-    fieldset 
-        {border: 4px solid red;
-        margin-top: 1em;
-        margin-bottom: 1em;}
-    #contact input, #contact textarea, #contact select, #contact button {
-        padding:.5em;
-        font-size: 1rem;}
-    #contact ul 
-        {list-style: none;
-        padding: 0px;}
-    #contact li 
-        {margin:1rem;}
-    #contact button 
-        {background-color: #2F9481;
-        color: white;
-        border: 1px solid;}
-
-        @media screen and (max-width: 768px) {
-            header {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              padding: 20px 0;
-            }
-        }
+  @media only screen and (min-width: 390px) {
+    header {
+      font-size: 24px;
+    }
+    section {
+      padding: 20px;
+    }
+  }
