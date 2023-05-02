@@ -142,7 +142,12 @@ h2
         color: white;
         border: 1px solid;}
 
-@media  screen and (max-width: 812px) and (min-width: 375px) {}
+@media screen and (max-width 600px) {
+    .gallery {
+        width: 150px;
+        height: 150px;
+    }
+}
 
 @media screen and (min-width: 60cm) {}
 
