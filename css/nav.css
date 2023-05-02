@@ -41,7 +41,7 @@ main {
 
 .logo {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .logo img {
@@ -94,7 +94,7 @@ such that no text wraps
 @media screen and (min-width: 60rem) {
 
     .navbar {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
