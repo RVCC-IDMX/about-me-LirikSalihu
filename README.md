@@ -3,6 +3,8 @@
 
 Lirik Salihu
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/993f1ef3-6c05-4199-9c21-eaf3b5576ac7/deploy-status)](https://app.netlify.com/sites/about-me-liriksalihu/deploys)
+
 This is a webpage created by me Lirik Salihu, a student of Information Technology at Raritan Valley Community College. The webpage consists of different sections such as a bio, hobbies, gallery, and blog. It is designed to showcase my passion for sports and technology, as well as provide some insights into his daily routine.
 
 Sections
